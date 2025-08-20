@@ -1,0 +1,42 @@
+What is Internet?
+-> Interconnected network of computers around the world.
+-> When client generate a request it first goes to Internet service provider then it will go to Domain name system, DNS knows the IP address of requested URL from the client so it returns the IP address back to the ISP then to the client, then the client request directly to that IP address of a particular server that's how client server can communicate with each other
+
+
+HTML
+----
+
+HyperText Markup(structure & formatting) Language 
+
+HTML Elements : Standard elements that browser recognizes -
+
+-> Paragraph - <p></p>
+-> Heading - <h1></h1> to <h6></h6>
+-> Image - <img>
+
+HTML Tags : A container for some content or other Tags
+
+<p> This is a paragraph </p>
+    |------------------|
+              |
+            content
+|--------------------------|
+              |
+            Element
+
+
+HTML Boilerplate :-
+
+This is the standard format or skeleton of writing HTML code.
+
+<!DOCTYPE>
+<html>
+    <head>
+        <title>My First Page</title>
+    </head>
+    <body>
+        <p>Hello World</p>
+    </body>
+</html>
+
+
