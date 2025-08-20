@@ -40,3 +40,20 @@ This is the standard format or skeleton of writing HTML code.
 </html>
 
 
+Lists in HTML :- 
+
+-> Unordered List -
+    <ul>
+        <li>Bread</li>
+        <li>Butter</li>
+    </ul>
+
+-> Ordered List -
+    <ol>
+        <li>Priya</li>
+        <li>Solanki</li>
+    </ol>
+
+HTML Attributes :- Attributes are used to add more information to the tag.
+
+<html lang="en">
