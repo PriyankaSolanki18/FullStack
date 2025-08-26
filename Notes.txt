@@ -55,5 +55,12 @@ Lists in HTML :-
     </ol>
 
 HTML Attributes :- Attributes are used to add more information to the tag.
-
 <html lang="en">
+
+
+Anchor Element :- used to add links to your page.
+<a href="https://google.com">Google</a>
+     |
+    (H)
+
+
