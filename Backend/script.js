@@ -29,3 +29,14 @@ const info = require("./Fruits");
 console.log(info);
 console.log(info[0]);
 console.log(info[1].name);
+
+
+//To use pacakge by globally installing it and not in a particular directory
+const figlet = require("figlet");
+
+async function doStuff() {
+  const text = await figlet.text("Priyanka !");
+  console.log(text);
+}
+
+doStuff();
