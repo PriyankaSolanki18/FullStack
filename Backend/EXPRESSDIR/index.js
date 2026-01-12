@@ -15,7 +15,7 @@ app.listen(port, () => {
 
 
 
-
+//1. 
 // app.use((req,res) => {
   //  console.log(req);
     // console.log("request received");
@@ -44,7 +44,7 @@ app.get("/", (req,res) => {
 
 
 
-//Setting path parameters :-
+//3. Setting path parameters :-
 
 // app.get("/:username/:id", (req,res) => {
 //   console.log(req.params);
@@ -66,7 +66,7 @@ app.get("/:username/:id", (req,res) => {
 
  
 
-//Query Strings :-
+//4. Query Strings :-
 // app.get("/search", (req,res) => {
 //   console.log(req.query);
 //   res.send("no results");
@@ -89,7 +89,7 @@ app.get("/search", (req,res) => {
 
 
 
-
+//2. Routing-
 //if server receive GET request then we use :-
 // app.get("/apple", (req,res) => {
 //   res.send("you contacted apple path");

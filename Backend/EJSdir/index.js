@@ -7,6 +7,7 @@ const port = 8080;
 
 app.use(express.static(path.join(__dirname,"/public/js")));
 app.use(express.static(path.join(__dirname,"/public/css")));
+
 app.set("view engine","ejs");  // express internally require ejs so we don't have to require it separately
 app.set("views",path.join(__dirname,"/views"));  //exact path to search for views folder no matter from whereever we are runnig the server i.e; index.js
 

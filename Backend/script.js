@@ -47,7 +47,9 @@
 
 /*************************************************/
 
+//7.
 //To use pacakge by globally installing it and not in a particular directory
+
 // const figlet = require("figlet");
 
 // async function doStuff() {
@@ -57,7 +59,9 @@
 
 // doStuff();
 
+/*************************************************/
 
+//8.
 // import {sum, PI} from "./math.js";
 // import {generate} from "random-words";
 
